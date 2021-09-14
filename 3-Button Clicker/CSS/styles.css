@@ -1,0 +1,153 @@
+*{
+    font-family: cursive;
+}
+/*==================== Nav Config===================*/ 
+
+nav{
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    flex-direction: row;
+    margin: 0px 170px;
+}
+
+nav>h1{
+    font-size: 45px;
+    margin: 0;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+nav>.search{
+    margin: 20px 10px;
+    margin-right: 50px;
+    padding-right: 210px;
+    margin-left: 100px;
+    text-align: start;
+    border: 3.5px solid black;
+}
+
+nav>button{
+    margin: 20px 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(43, 120, 228);
+    color: white;
+    font-size: 25px;
+    box-shadow: 3px 3px black;
+    border: 2px solid black;
+}
+/*==================== Body Direction===================*/ 
+
+
+.body{
+    margin: 10px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.ninjadef1{
+    border: 3px solid black;
+    height: 270px;
+    margin: 20px;
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ninjadef2{
+    border: 3px solid black;
+    height: 270px;
+    margin: 20px;
+    width: 650px;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.add-def{
+    border: 3px solid black;
+    margin: 20px;
+    padding: 0px 0px;
+    height: 220px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*==================== Boxes config===================*/ 
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 70px;
+}
+
+.right>*{
+    align-items: center;
+
+}
+
+.left>*{
+    padding: 20px px;
+    font-size: 25px;
+    font-weight: 550;
+    text-align: start;
+    margin: 30px;
+}
+
+/*==================== Text Details===================*/ 
+
+.right>h1{
+    font-size: 50px;
+    margin-bottom: 5px ;
+}
+
+.right>h2{
+    font-size: 30px;
+    margin: 0px;
+    margin-bottom: 5px ;
+}
+
+.right>h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 45px ;
+    width: 200px;
+
+}
+
+.right>button{
+    background-color: rgb(255, 217, 102);
+    border: 2px solid black;
+    box-shadow: 3px 3px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.add-def>h1{
+    margin: 20px;
+    margin-bottom: 30px;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.add-def>h1>span{
+    font-weight: 999;
+}
+
+.add-def>button{
+    padding: 10px 50px;
+    background-color: rgb(147, 196, 125);
+    border: 2px solid black;
+    box-shadow: 3px 3px;
+    font-size: 20px;
+    font-weight: 700;
+}
